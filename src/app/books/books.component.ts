@@ -27,4 +27,6 @@ export class BooksComponent implements OnInit {
     console.log("hello");
   }
 
+  myName :string = "";
+
 }
