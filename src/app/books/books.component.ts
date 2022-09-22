@@ -22,4 +22,9 @@ export class BooksComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  handleClick(){
+    this.isDisabled = true;
+    console.log("hello");
+  }
+
 }
