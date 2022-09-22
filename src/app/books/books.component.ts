@@ -15,6 +15,8 @@ export class BooksComponent implements OnInit {
   author2 : string= "Andrew Hunt";
   src2 : string = "https://images-eu.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX218_BO1,204,203,200_QL40_ML2_.jpg";
 
+  isDisabled : boolean = false;
+
   constructor() { }
 
   ngOnInit(): void {
