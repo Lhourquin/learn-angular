@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 interface Book {
   name: string,
   author: string,
-  image: string
+  image: string,
+  amount : number
 }
 
 @Component({
@@ -15,16 +16,19 @@ export class BooksComponent implements OnInit {
 
   books: Book[] = [
     {
-      name: 'Clean code',
-      author: 'Robert Martin',
+      name: 'clean code',
+      author: 'robert martin',
       image: "https://images-na.ssl-images-amazon.com/images/I/41xShlnTZTL._SX376_BO1,204,203,200_.jpg",
+      amount : 700
 
     },
     {
 
-      name: "The Pragmatic Programmer",
-      author: "Andrew Hunt",
-      image: "https://images-eu.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX218_BO1,204,203,200_QL40_ML2_.jpg"
+      name: "the pragmatic programmer",
+      author: "andrew hunt",
+      image: "https://images-eu.ssl-images-amazon.com/images/I/51W1sBPO7tL._SX218_BO1,204,203,200_QL40_ML2_.jpg",
+      amount : 700
+
     }
   ]
 

@@ -12,10 +12,11 @@
             <img [src]="book.image" [alt]="book.name" width="100">
 
 
-            {{book.name}}
+            {{book.name | titlecase}}
             by
-            {{book.author}}
+            {{book.author | titlecase}}
         </li>
+        <p>{{book.amount | currency:'EUR'}}</p>
 
     </ng-container>
 
