@@ -1,9 +1,10 @@
 ul {
     display: flex;
     flex-wrap: wrap;
+    list-style: none;
+
 }
 .book{
-    list-style: none;
     text-align: center;
     text-overflow: ellipsis;
     width: 25%;
